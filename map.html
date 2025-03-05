@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карта | WHITE PEAK</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Загальні стилі */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #1f1f1f; /* Темно-сірий фон */
+            color: #dcdcdc; /* Світло-сірий текст */
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Хедер */
+        .main-header {
+            background-color: #292929; /* Темно-сірий фон */
+            padding: 15px 0;
+            border-bottom: 1px solid #444; /* Лінія розділення */
+            text-align: center;
+        }
+
+        .main-header a {
+            text-decoration: none;
+            font-weight: bold;
+            color: #bdbdbd;
+            margin: 0 15px;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        .main-header a.active {
+            color: #5fa8d3; /* Акцентний колір */
+        }
+
+        .main-header a:hover {
+            color: #5fa8d3; /* Акцент при наведенні */
+        }
+
+        /* Основний контент */
+        h1 {
+            margin-top: 40px;
+            font-size: 24px;
+            color: #5fa8d3; /* Акцентний колір */
+        }
+
+        .map-container {
+            margin: 20px 0;
+        }
+
+        .map-image {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .map-info {
+            margin-top: 20px;
+            padding: 20px;
+            background: #2b2b2b;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            text-align: left;
+            color: #c7c7c7;
+        }
+
+        .map-info p {
+            margin: 5px 0;
+        }
+
+        .map-info a {
+            color: #5fa8d3;
+            text-decoration: none;
+        }
+
+        .map-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* Футер */
+        .main-footer {
+            background-color: #292929;
+            text-align: center;
+            padding: 20px 0;
+            border-top: 1px solid #444;
+            margin-top: 30px;
+        }
+
+        .main-footer p {
+            font-size: 14px;
+            color: #aaa;
+        }
+
+        .footer-social a {
+            color: #5fa8d3;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .footer-social a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="main-header">
+        <nav>
+            <a href="/Users/Vitalii.Velychko/Desktop/ЮК/WhitePeak/index.html">ГОЛОВНА</a>
+            <a href="/Users/Vitalii.Velychko/Desktop/ЮК/WhitePeak/services.html">ПОСЛУГИ</a>
+            <a href="/Users/Vitalii.Velychko/Desktop/ЮК/WhitePeak/contacts.html">КОНТАКТИ</a>
+            <a href="/Users/Vitalii.Velychko/Desktop/ЮК/WhitePeak/info.html">ПРО НАС</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Де нас знайти</h1>
+        <div class="map-container">
+            <img src="/Users/Vitalii.Velychko/Desktop/ЮК/WhitePeak/img/map.jpg" alt="Карта місцезнаходження" class="map-image">
+        </div>
+
+        <div class="map-info">
+            <p><strong>Адреса:</strong> м. Київ, проспект Бажана, 10</p>
+            <p><strong>Телефон:</strong> <a href="tel:+380999330266">+380 (99) 933-02-66</a></p>
+            <p><strong>Email:</strong> <a href="mailto:info@whitepeak.ua">info@whitepeak.ua</a></p>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <p>WHITE PEAK © 2024 | м. Київ, проспект Бажана, 10 | <a href="mailto:info@whitepeak.ua">info@whitepeak.ua</a></p>
+    </footer>
+
+</body>
+
+</html>

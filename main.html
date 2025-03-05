@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WHITE PEAK</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic"
+        rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="main-header">
+        <nav class="main-navigation">
+            <a class="main-header-logo">
+                <img src="img/logo.jpg" width="368" height="153" alt="Логотип барбершопа «Бородинский»">
+            </a>
+            <div class="main-navigation-wrapper">
+                <div class="container">
+                    <ul class="site-navigation">
+                        <li>
+                            <a href="/Users/Vitalii.Velychko/Desktop/ЮК/WhitePeak/index.html">ГОЛОВНА</a>
+                        </li>
+                        <li>
+                            <a href="/Users/Vitalii.Velychko/Desktop/ЮК/WhitePeak/services.html">ПОСЛУГИ</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/Users/Vitalii.Velychko/Desktop/ЮК/WhitePeak/contacts.html">КОНТАКТИ</a>
+                        </li>
+                        <li>
+                            <a href="/Users/Vitalii.Velychko/Desktop/ЮК/WhitePeak/info.html">ПРО НАС</a>
+                        </li>
+                    </ul>
+                    <ul class="user-navigation">
+                        <li>
+                            <a class="login-link" href="login.html">пошук</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <h1 class="visually-hidden">WHITE PEAK</h1>
+
+        <section class="features">
+            <h2 class="visually-hidden">ПЕРЕВАГИ</h2>
+            <ul class="features-list">
+                <li class="feature-item">
+                    <h3>Професіоналізм</h3>
+                    <p>Професіоналізм та досвід Наша команда складається з висококваліфікованих юристів з багаторічним досвідом роботи у різних галузях права. Ми пропонуємо ефективні рішення навіть для найскладніших юридичних завдань.</p>
+                </li>
+                <li class="feature-item">
+                    <h3>Індивідуальний підхід</h3>
+                    <p>Індивідуальний підхід до клієнта Ми розуміємо, що кожен клієнт і кожна справа унікальні. Тому ми ретельно аналізуємо кожну ситуацію та створюємо стратегію, яка найкраще відповідає вашим потребам і цілям.</p>
+                </li>
+                <li class="feature-item">
+                    <h3>Гарантія конфіденційності</h3>
+                    <p>Гарантія конфіденційності та надійності Ми забезпечуємо повну конфіденційність вашої інформації та працюємо виключно в інтересах наших клієнтів. Ваші юридичні питання у надійних руках.</p>
+                </li>
+            </ul>
+        </section>
+
+        <div class="index-columns">
+            <section class="news">
+                <h2>НОВИНИ<h2>
+                <ul class="news-list">
+                    <li class="ne/ws-item">
+                        <p>У фокусі дискусії були такі питання: 
+
+                            Реформа управління у державному секторі.
+                            Нова Політика державної власності.
+                            </p>
+                        <time datetime="2016-01-11">11 января</time>
+                    </li>
+                    <li class="news-item">
+                        <p>VII Форум з корпоративного права</p>
+                        <time datetime="2016-01-18">18 января</time>
+                    </li>
+                </ul>
+                <a class="button" href="news.html">Все новости</a>
+            </section>
+
+            <section class="gallery">
+                <h2>ФОТОГАЛЕРЕЯ</h2>
+                <div class="gallery-conteiner">
+                    <figure class="gallery-content">
+                        <a href="#">
+                            <img src="img/img1.png" width="286" height="164" alt="Интерьер">
+                        </a>
+                    </figure>
+                    <button class="button gallery-button gallery-button-back" type="button">Назад</button>
+                    <button class="button gallery-button gallery-button-next" type="button">Вперед</button>
+                </div>
+            </section>
+        </div>
+
+        <div class="index-columns">
+            <section class="contacts">
+                <h2>КОНАКТНА ІНФОРМАЦІЯ</h2>
+                <p>
+                     «WHITE PEAK»
+                    <br> АДРЕСА: М. Київ, просп.бажана миколи 10
+                    <br> ТЕЛЕФОН: +3 (099) 933-02-66
+                </p>
+                <p>
+                    Время работы:
+                    <br> пн—пт: с 10:00 до 22:00
+                    <br> сб—вс: с 10:00 до 19:00
+                </p>
+                <a class="button" href="map.html">КАРТА</a>
+                <a class="button" href="contacts.html">ЗВОРОТНІЙ ЗВ'ЯЗОК</a>
+            </section>
+
+            <section class="appointment">
+                <h2>Записаться</h2>
+                <p class="appointment-info">ВКАЖІТЬ БАЖАНУ ДАТУ ЗУСТРІЧІ
+                </p>
+                <form class="appointment-form" `ction="https://echo.htmlacademy.ru" method="post">
+                    <p class="appointment-item">
+                        <label for="appointment-date">ДАТА</label>
+                        <input id="appointment-date" type="text" name="date" value="" placeholder="08.10.2017">
+                    </p>
+                    <p class="appointment-item">
+                        <label for="appointment-time">ЧАС</label>
+                        <input id="appointment-time" type="text" name="time" value="" placeholder="10:00">
+                    </p>
+                    <p class="appointment-item">
+                        <label for="appointment-name">ВАШЕ ІМ'Я</label>
+                        <input id="appointment-name" type="text" name="name" value="" placeholder="Борода">
+                    </p>
+                    <p class="appointment-item">
+                        <label for="appointment-phone">Телефон</label>
+                        <input id="appointment-phone" type="tel" name="phone" value="" placeholder="+7 123 456-78-90">
+                    </p>
+                    <button class="button" type="submit">Отправить</button>
+                </form>
+            </section>
+        </div>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p class="footer-contacts">
+                Юридична компанія «WHITE PEAK»
+                <br> Київ, просп.бажана миколи 10
+                <br>
+                <a href="map.html">ЯК НАС ЗНАЙТИ?</a>
+                <br> Телефон: +3 (099) 933-02-66
+            </p>
+            <div class="footer-social">
+                <b>СОЦІАЛЬНІ МЕРЕЖІ</b>
+                <ul>
+                    <li>
+                        <a class="social-button" href="#">Вконтакте</a>
+                    </li>
+                    <li>
+                        <a class="social-button" href="#">Фейсбук</a>
+                    </li>
+                    <li>
+                        <a class="social-button" href="#">Инстаграм</a>
+                    </li>
+                </ul>
+            
+    </footer>
+
+</body>
+
+</html>
